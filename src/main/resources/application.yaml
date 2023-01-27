@@ -1,0 +1,13 @@
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+spring.datasource:
+  driverClassName: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost/lyndata
+  username : root
+  password : APLEXY
+spring.jpa.hibernate :
+  ddl-auto : update
+  show-sql : true
